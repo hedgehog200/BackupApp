@@ -1,0 +1,32 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+*.sln.docstates
+*.userprefs
+*.DotSettings.user
+.vs/
+*.nupkg
+*.log
+
+## IDE
+.idea/
+*.swp
+*~
+
+## OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+## Build
+packages/
+*.msi
+*.zip
+
+## BackupApp specific
+installer_output/
+pending_queue.json
+build-installer.bat
+uninstall-service.bat
